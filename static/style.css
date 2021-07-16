@@ -1,0 +1,22 @@
+body{
+   background-color:rgb(44, 70, 57);
+}
+h1{
+    font-size: 50px;
+    color:#fff;
+    text-align: center;
+}
+
+form ,input[type = 'submit']{
+    color: crimson;
+    width: 100px;
+    font-style: bold;
+    height: 40px;
+    border-radius: 5px solid black;
+    margin-left: 770px;
+    
+}
+form, textarea{
+    margin-top: auto;
+    margin-left: 150px;
+}

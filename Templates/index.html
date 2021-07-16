@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+{% load static %}
+<link rel="stylesheet" href="{% static  'style.css' %}">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Count App</title>
+</head>
+<body>
+    
+<h1>Input your text below :</h1>
+
+<form  method="POST" action="counter">
+    {% csrf_token%}
+    <textarea name="words"  cols="100" rows="25"></textarea><br>
+    <input type="submit">
+</form>
+    
+</body>
+</html>
+
+
+
+
+
